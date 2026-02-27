@@ -1,7 +1,9 @@
 # 🚀 Ignitia Hackathon – Baseline Variant
 
 ## 📌 Project Overview
-This repository contains the **Baseline implementation** of the DINOv2-based semantic segmentation model.
+This repository contains the **Baseline implementation** of a DINOv2-based semantic segmentation model.
+
+The model performs pixel-level classification into 10 classes using a pretrained Vision Transformer backbone and a custom CNN decoder.
 
 The model uses:
 - Pretrained DINOv2 backbone
@@ -11,11 +13,11 @@ The model uses:
 ---
 
 ## 🏗️ Model Architecture
-- **Backbone:** DINOv2 (dinov2_vits14)
-- **Decoder:** 3-layer CNN segmentation head
-- **Input Size:** 252 x 448
-- **Loss Function:** (Mention from training script)
-- **Classes:** 10
+- Backbone: DINOv2 (dinov2_vits14)
+- Decoder: Custom CNN Head
+- Input Size: 252 × 448
+- Output Classes: 10
+- Framework: PyTorch
 
 ---
 
@@ -27,11 +29,8 @@ The model uses:
 
 ---
 
-## 🖼️ Sample Predictions
+## 🖼️ Sample Prediction
 
-Screenshots of predictions are available in:
-
-`visual_results/`
 
 <img width="1000" height="500" alt="cc0000745" src="https://github.com/user-attachments/assets/38cae410-a37f-4224-bdbd-1033e586085b" />
 
